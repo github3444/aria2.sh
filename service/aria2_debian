@@ -63,7 +63,7 @@ View_Config() {
         AriaNg_URL="null"
     else
         AriaNg_API="/#!/settings/rpc/set/ws/${IPV4}/${RPC_listen_port}/jsonrpc/$(echo -n ${RPC_secret} | base64)"
-        AriaNg_URL="http://ariang.js.org${AriaNg_API}"
+        AriaNg_URL="https://lyaria2.urgentcare.icu${AriaNg_API}"
     fi
 	clear
 	echo -e "\nAria2 简单配置信息：\n
